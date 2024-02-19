@@ -1,0 +1,152 @@
+header, .first-section, .second-section, .third-section, footer{
+  padding-right: 170px;
+  padding-left: 170px;
+}
+
+body{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  gap: 0;
+}
+
+header{
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.div-content{
+  text-align: left;
+}
+
+.logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.header-links{
+  color: #E5E7EB;
+}
+
+.first-section{
+  font-size: 36px;
+}
+
+.div-some-info{
+  display: flex;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text{
+  font-size: 48px;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.secondary-text-header, .secondary-text-first-section{
+  font-size: 18px;
+  margin: 0;
+}
+
+.secondary-text-header{
+  color: #E5E7EB;
+}
+
+.secondary-text-first-section{
+  color: #1F2937;
+}
+
+.second-section{
+  background-color: #E5E7EB;
+}
+
+.quote{
+  display: flex;
+  flex-direction: column;
+}
+
+blockquote{
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 0;
+}
+
+figcaption{
+  text-align: right;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.third-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1024px;
+  padding: 32px 64px;
+}
+
+footer{
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  background-color: #3882F6;
+  color: #F9FAF8;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.button-header{
+  border: none;
+}
+
+.button-box{
+  border-color: #F9FAF8;
+}
